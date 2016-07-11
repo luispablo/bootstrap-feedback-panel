@@ -1,12 +1,12 @@
-const React = require("react"); // eslint-disable-line no-undef
-const AlertInfo = require("./lib/AlertInfo"); // eslint-disable-line no-undef
-const AlertError = require("./lib/AlertError"); // eslint-disable-line no-undef
+var React = require("react"); // eslint-disable-line no-undef
+var AlertInfo = require("./lib/AlertInfo"); // eslint-disable-line no-undef
+var AlertError = require("./lib/AlertError"); // eslint-disable-line no-undef
 
-const TYPES = { "INFO": AlertInfo, "ERROR": AlertError };
+var TYPES = { "INFO": AlertInfo, "ERROR": AlertError };
 
-const PanelMessages = (props) => {
-	const items = props.messages.map((message, index) => {
-		const Component = TYPES[message.type];
+var PanelMessages = function (props) {
+	var items = props.messages.map(function (message, index) {
+		var Component = TYPES[message.type];
 		return React.createElement(Component, { key: index, message: message.text });
 	});
 
