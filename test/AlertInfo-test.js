@@ -1,7 +1,7 @@
 import React from "react";
 import TestUtils from "react-addons-test-utils";
 import test from "tape";
-import AlertInfo from "../lib/AlertInfo";
+import AlertInfo from "../src/AlertInfo";
 
 const MESSAGE = "test message";
 const shallowRenderer = TestUtils.createRenderer();

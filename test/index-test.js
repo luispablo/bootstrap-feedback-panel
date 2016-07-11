@@ -1,9 +1,9 @@
 import React from "react";
 import TestUtils from "react-addons-test-utils";
 import test from "tape";
-import PanelMessages from "../index";
-import AlertInfo from "../lib/AlertInfo";
-import AlertError from "../lib/AlertError";
+import PanelMessages from "../src/index";
+import AlertInfo from "../src/AlertInfo";
+import AlertError from "../src/AlertError";
 
 const MESSAGE = "test message";
 const shallowRenderer = TestUtils.createRenderer();

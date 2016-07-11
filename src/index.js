@@ -1,6 +1,6 @@
 var React = require("react"); // eslint-disable-line no-undef
-var AlertInfo = require("./lib/AlertInfo"); // eslint-disable-line no-undef
-var AlertError = require("./lib/AlertError"); // eslint-disable-line no-undef
+var AlertInfo = require("./AlertInfo"); // eslint-disable-line no-undef
+var AlertError = require("./AlertError"); // eslint-disable-line no-undef
 
 var TYPES = { "INFO": AlertInfo, "ERROR": AlertError };
 
