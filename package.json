@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-feedback-panel",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A generic feedback panel to be used with Bootstrap UI library and React",
   "main": "dist/index.js",
   "scripts": {
