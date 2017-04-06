@@ -13,8 +13,4 @@ var PanelMessages = function (props) {
 	return React.createElement("span", {}, items);
 };
 
-PanelMessages.propTypes = {
-	messages: React.PropTypes.array
-};
-
 module.exports = PanelMessages; // eslint-disable-line no-undef
